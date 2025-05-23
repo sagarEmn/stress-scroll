@@ -31,5 +31,17 @@ To get this project up and running locally:
 
 1. **Clone the repository:**
 ```bash
-git clone 
+git clone https://github.com/sagarEmn/stress-scroll.git
 ```
+
+2. **Install dependencies:**
+```bash
+npm install
+```
+
+3. **Run the development server:**
+```bash
+npm run dev
+```
+
+This site should now be running live on a port indicated by your terminal. 
