@@ -1,6 +1,6 @@
 import React from "react";
 
-const Navigation = ({ scrollY, sections, activeSection }) => {
+const Navigation = ({ sections }) => {
   return (
     <nav className="w-full top-0 fixed">
       <div className="max-w-6xl mx-auto px-6 py-4">
@@ -13,11 +13,9 @@ const Navigation = ({ scrollY, sections, activeSection }) => {
           <div className="hidden md:flex space-x-8">
             {sections.map((sections, index) => (
               <a
-                key={sections.id}
+                key={index}
                 href={`#${sections.id}`}
-                className={`text-sm transition-colors duration-200 hover:text-blue-400 ${
-                  activeSection === index ? "text-blue-400" : "text-slate-400"
-                }`}
+                className={`text-sm transition-colors duration-200 hover:text-blue-400`}
               >
                 {sections.title}
               </a>
