@@ -5,6 +5,7 @@ import { Smartphone, Brain, Target, Heart, Zap } from "lucide-react";
 
 // import components
 import Nav from "./components/Navigation.jsx";
+import Hero from "./components/Hero.jsx";
 
 function App() {
   const sections = [
@@ -18,6 +19,7 @@ function App() {
   return (
     <>
       <Nav sections={sections} />
+      <Hero />
     </>
   );
 }
