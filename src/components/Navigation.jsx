@@ -2,7 +2,7 @@ import React from "react";
 
 const Navigation = ({ sections }) => {
   return (
-    <nav className="w-full top-0 fixed">
+    <nav className="w-full top-0 fixed bg-transparent">
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div>
