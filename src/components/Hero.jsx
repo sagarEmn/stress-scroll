@@ -14,6 +14,16 @@ const Hero = () => {
               <Smartphone className="w-10 h-10 text-blue-400" />
             </div>
           </div>
+
+          <h2 className="text-6xl md:text-7xl font-bold mb-6 leading-tight">
+            <span className="bg-gradient-to-r from-white via-blue-200 to-purple-200 bg-clip-text text-transparent">
+              The Endless
+            </span>
+            <br />
+            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+              Scroll
+            </span>
+          </h2>
         </div>
       </div>
     </>
