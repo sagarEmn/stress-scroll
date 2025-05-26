@@ -28,6 +28,15 @@ const Hero = () => {
           <p className="text-xl md:text-2xl text-slate-300 max-w-3xl mx-auto leading-relaxed mb-12">
             How stress drives you into mindless scrolling, and why it becomes the escape from reality
           </p>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+            <button>
+              Start Your Journey
+            </button>
+            <button>
+              Learn More
+            </button>
+          </div>
         </div>
       </div>
     </>
