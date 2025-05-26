@@ -24,6 +24,10 @@ const Hero = () => {
               Scroll
             </span>
           </h2>
+
+          <p className="text-xl md:text-2xl text-slate-300 max-w-3xl mx-auto leading-relaxed mb-12">
+            How stress drives you into mindless scrolling, and why it becomes the escape from reality
+          </p>
         </div>
       </div>
     </>
