@@ -4,7 +4,7 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div
+      <section
         id="hero"
         className="relative min-h-screen flex items-center justify-center px-6"
       >
@@ -40,10 +40,13 @@ const Hero = () => {
           </div>
 
           <div className="animate-bounce">
-            <ChevronDown className=' rounded-full text-slate-400 border-2 border-slate-400 mx-auto' size={50} />
+            <ChevronDown
+              className=" rounded-full text-slate-400 border-2 border-slate-400 mx-auto"
+              size={50}
+            />
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };
