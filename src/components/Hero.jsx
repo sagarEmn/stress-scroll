@@ -1,4 +1,4 @@
-import { Smartphone } from "lucide-react";
+import { Smartphone, ChevronDown } from "lucide-react";
 import React from "react";
 
 const Hero = () => {
@@ -26,7 +26,8 @@ const Hero = () => {
           </h2>
 
           <p className="text-xl md:text-2xl text-slate-300 max-w-3xl mx-auto leading-relaxed mb-12">
-            How stress drives you into mindless scrolling, and why it becomes the escape from reality
+            How stress drives you into mindless scrolling, and why it becomes
+            the escape from reality
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
@@ -36,6 +37,10 @@ const Hero = () => {
             <button className="px-8 py-4 bg-white rounded-full text-black font-semibold transition-all transform hover:scale-105 cursor-pointer">
               Learn More
             </button>
+          </div>
+
+          <div className="animate-bounce">
+            <ChevronDown className='w-14 h-14 rounded-full text-slate-400 border-2 border-slate-400 mx-auto' />
           </div>
         </div>
       </div>
