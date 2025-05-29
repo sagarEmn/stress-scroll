@@ -40,7 +40,7 @@ const Hero = () => {
           </div>
 
           <div className="animate-bounce">
-            <ChevronDown className='w-14 h-14 rounded-full text-slate-400 border-2 border-slate-400 mx-auto' />
+            <ChevronDown className=' rounded-full text-slate-400 border-2 border-slate-400 mx-auto' size={50} />
           </div>
         </div>
       </div>
